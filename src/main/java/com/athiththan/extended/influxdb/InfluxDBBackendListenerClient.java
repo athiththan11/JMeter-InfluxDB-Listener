@@ -68,8 +68,6 @@ public class InfluxDBBackendListenerClient extends AbstractBackendListenerClient
     private static final String TAG_KO = "ko";
     private static final String TAG_ALL = "all";
 
-    private static final int ONE_MS_IN_NANOSECONDS = 1000000;
-
     private static final String CUMULATED_METRICS = "all";
     private static final long SEND_INTERVAL = JMeterUtils.getPropDefault("backend_influxdb.send_interval", 5);
     private static final int MAX_POOL_SIZE = 1;
