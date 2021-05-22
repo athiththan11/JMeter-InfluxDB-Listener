@@ -2,8 +2,6 @@
 
 An Extended InfluxDB Backend Listener Implementation for JMeter
 
-[:construction: developing at the moment]
-
 ## Metrics
 
 - `maxAT`: Maximum active threads
